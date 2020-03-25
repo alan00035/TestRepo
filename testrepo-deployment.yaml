@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: docker.pkg.github.com/alan00035/testrepo/testforbix:latest
+        # image: 
         resources:
           limits:
             memory: "128Mi"
